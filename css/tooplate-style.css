@@ -195,7 +195,7 @@ p {
 }
 
 .fourth-section .send-to-portfolio {
-	background-color: #415b90;
+	background-color: #ffffff;
 	text-align: center;
 	padding:  46.7% 0px;
 }
@@ -211,12 +211,12 @@ p {
 }
 
 .fourth-section .send-to-portfolio .primary-button a {
-	background-color: #fff;
-	color: #415b90;
+	background-color: rgb(63, 63, 63);
+	color: #fff;
 }
 
 .fourth-section .send-to-portfolio .primary-button a:hover {
-	background-color: #22304d;
+	background-color: #93969b;
 	color: #fff;
 	transition: all 0.3s;
 }
@@ -473,7 +473,7 @@ footer a:hover {
 }
 
 .send-to-home .back-to-home {
-	background-color: #415b90;
+	background-color: #ffffff;
 	text-align: center;
 	padding: 45px 0px;
 }
@@ -489,8 +489,8 @@ footer a:hover {
 }
 
 .send-to-home .back-to-home .primary-button a {
-	background-color: #fff;
-	color: #415b90;
+	background-color: #415b90;
+	color: #fff;
 }
 
 .send-to-home .back-to-home .primary-button a:hover {
@@ -582,7 +582,8 @@ footer a:hover {
 @media (max-width: 1200px){
 
 	.fourth-section .send-to-portfolio {
-		padding:  47.5% 0px;
+		padding:  20.5% 0px;
+		/*47.5% 0px;*/
 	}
 
 	.gallery-page .portfolio-items  {
@@ -680,11 +681,11 @@ footer a:hover {
 	}
 
 	.fourth-section .portfolio-item {
-		margin-bottom: 30px;
+		margin-bottom: 10px;
 	}
 
 	.fourth-section .send-to-portfolio {
-		padding:  46% 0px;
+		padding:  20% 0px;
 	}
 
 	.fivth-section {
