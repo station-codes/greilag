@@ -1,7 +1,6 @@
 /* 
 
 Template 2091 Ziggy
-
 http://www.tooplate.com/view/2091-ziggy
 
 */
@@ -17,7 +16,8 @@ ul {
 }
 
 body {
-	font-family: 'Open Sans', sans-serif;
+	/* font-family: 'Open Sans', sans-serif; */
+	font-family: 'Helvetica', 'bold';
 }
 
 p {

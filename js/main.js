@@ -6,7 +6,7 @@ jQuery(document).ready(function($) {
     	$('.projects-holder').mixitup({
             effects: ['fade','grayscale'],
             easing: 'snap',
-            transitionSpeed: 400
+            transitionSpeed: 800
         });
 
 });
