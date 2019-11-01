@@ -699,6 +699,7 @@
                 // GIVE ACTIVE FILTER ACTIVE CLASS
                 
                 $.each(showOnLoadArray, function(){
+                    console.log("blub");
                     $(config.filterSelector+'[data-filter="'+this+'"]').addClass('active');
                 });
                 
@@ -706,6 +707,7 @@
     
                 $cont.find(config.targetSelector).addClass('mix_all');
                 if(showOnLoadArray[0]  == 'all'){
+                    console.log("mix it");
                     showOnLoadArray[0] = 'mix_all',
                     config.showOnLoad = 'mix_all';
                 };

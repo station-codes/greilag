@@ -1,6 +1,7 @@
 /* 
 
 Template 2091 Ziggy
+
 http://www.tooplate.com/view/2091-ziggy
 
 */
@@ -16,8 +17,8 @@ ul {
 }
 
 body {
-	/* font-family: 'Open Sans', sans-serif; */
-	font-family: 'Helvetica', 'bold';
+	background-color: rgb(215, 215, 215);
+	font-family: 'Open Sans', sans-serif;
 }
 
 p {
@@ -43,7 +44,7 @@ p {
 =======================*/
 
 .first-section {
-	background-image: url(../img/first-section-bg.png);
+	background-image: url(../img/background/first.png);
 	background-size: cover;
 	width: 100%;
 	background-repeat: no-repeat;
@@ -107,7 +108,8 @@ p {
 =======================*/
 
 .third-section {
-	background-image: url(../img/third-section-bg.png);
+
+	background-image: url(../img/background/third.png);
 	background-size: cover;
 	width: 100%;
 	background-repeat: no-repeat;
@@ -150,7 +152,7 @@ p {
 =======================*/
 
 .fourth-section {
-	background-image: url(../img/fourth-section-bg.png);
+	background-image: url(../img/background/fourth.png);
 	background-size: cover;
 	width: 100%;
 	background-repeat: no-repeat;
@@ -195,18 +197,20 @@ p {
 }
 
 .fourth-section .send-to-portfolio {
-	background-color: #ffffff;
+	background-color: rgb(215, 215, 215);
 	text-align: center;
 	padding:  46.7% 0px;
 }
 
 .fourth-section .send-to-portfolio span {
+	background-color: rgb(215, 215, 215);
 	display: inline-block;
 	font-size: 13px;
 	color: #fff;
 }
 
 .fourth-section .send-to-portfolio .primary-button {
+	background-color: rgb(215, 215, 215);
 	margin-top: 20px;
 }
 
@@ -227,7 +231,7 @@ p {
 =======================*/
 
 .fivth-section {
-	background-image: url(../img/fivth-section-bg.png);
+	background-image: url(../img/background/fivth.png);
 	background-size: cover;
 	width: 100%;
 	background-repeat: no-repeat;
@@ -275,7 +279,7 @@ p {
 =======================*/
 
 .sixth-section {
-	background-image: url(../img/sixth-section-bg.png);
+	background-image: url(../img/background/sixth.png);
 	background-size: cover;
 	width: 100%;
 	background-repeat: no-repeat;
@@ -371,7 +375,7 @@ p {
 
 footer {
 	text-align: center;
-	background-image: url(../img/footer-bg.png);
+	background-image: url(../img/background/footer.png);
 	background-size: cover;
 	width: 100%;
 	background-repeat: no-repeat;
@@ -434,7 +438,7 @@ footer a:hover {
 ======================*/
 
 .first-gallery-section {
-	background-image: url(../img/heading-bg.png);
+	background-image: url(../img/background/first.png);
 	background-size: cover;
 	width: 100%;
 	background-repeat: no-repeat;
@@ -468,12 +472,14 @@ footer a:hover {
 }
 
 .send-to-home  {
+	background-color: rgb(215, 215, 215);
 	margin-top: 100px;
 	margin-bottom: 50px;
 }
 
 .send-to-home .back-to-home {
-	background-color: #ffffff;
+	background-color: rgb(215, 215, 215);
+
 	text-align: center;
 	padding: 45px 0px;
 }
@@ -534,6 +540,7 @@ footer a:hover {
 }
 
 .content-wrapper {
+	background-color: rgb(215, 215, 215);
 	margin-bottom: 100px;
 	text-align: center;
 }
@@ -634,6 +641,7 @@ footer a:hover {
 @media (max-width: 850px){
 
 	.send-to-home  {
+		background-color: rgb(215, 215, 215);
 		margin-top: 80px;
 	}
 
@@ -743,7 +751,7 @@ footer a:hover {
 
 /* Preload images */
 body:after {
-  content: url(../img/close.png) url(../img/loading.gif) url(../img/prev.png) url(../img/next.png);
+  content: url(../img/navigation/close.png) url(../img/navigation/loading.gif) url(../img/navigation/prev.png) url(../img/navigation/next.png);
   display: none;
 }
 
@@ -822,7 +830,7 @@ body.lb-disable-scrolling {
   width: 32px;
   height: 32px;
   margin: 0 auto;
-  background: url(../img/loading.gif) no-repeat;
+  background: url(../img/navigation/loading.gif) no-repeat;
 }
 
 .lb-nav {
@@ -853,7 +861,7 @@ body.lb-disable-scrolling {
   width: 34%;
   left: 0;
   float: left;
-  background: url(../img/prev.png) left 48% no-repeat;
+  background: url(../img/navigation/prev.png) left 48% no-repeat;
   filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0);
   opacity: 0;
   -webkit-transition: opacity 0.6s;
@@ -871,7 +879,7 @@ body.lb-disable-scrolling {
   width: 64%;
   right: 0;
   float: right;
-  background: url(../img/next.png) right 48% no-repeat;
+  background: url(../img/navigation/next.png) right 48% no-repeat;
   filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0);
   opacity: 0;
   -webkit-transition: opacity 0.6s;
@@ -939,7 +947,7 @@ body.lb-disable-scrolling {
   float: right;
   width: 30px;
   height: 30px;
-  background: url(../img/close.png) top right no-repeat;
+  background: url(../img/navigation/close.png) top right no-repeat;
   text-align: right;
   outline: none;
   filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=70);
