@@ -11,7 +11,7 @@ BASIC STYLE
 ============*/
 
 ul {
-	padding: 0;
+	padding: 5% 0px 5% 0px;
 	margin: 0;
 	list-style: none;
 }
@@ -48,7 +48,7 @@ p {
 	background-size: cover;
 	width: 100%;
 	background-repeat: no-repeat;
-	padding: 20% 0px 20% 0px;
+	padding: 5% 0px 5% 0px;
 }
 
 .first-section .text-content {
@@ -83,7 +83,7 @@ p {
 =======================*/
 
 .second-section {
-	padding: 100px 0px;
+	padding: 5% 0px 5% 0px;
 }
 
 .second-section .service-item {
@@ -113,7 +113,7 @@ p {
 	background-size: cover;
 	width: 100%;
 	background-repeat: no-repeat;
-	padding: 20% 0px;
+	padding: 5% 0px 5% 0px;
 }
 
 .third-section .left-image img {
@@ -156,7 +156,7 @@ p {
 	background-size: cover;
 	width: 100%;
 	background-repeat: no-repeat;
-	padding: 16% 0px;
+	padding: 5% 0px 5% 0px;
 }
 
 .fourth-section .col-md-3 {
@@ -235,7 +235,7 @@ p {
 	background-size: cover;
 	width: 100%;
 	background-repeat: no-repeat;
-	padding: 20% 0px;
+	padding: 5% 0px 5% 0px;
 }
 
 .fivth-section .right-image {
@@ -283,7 +283,7 @@ p {
 	background-size: cover;
 	width: 100%;
 	background-repeat: no-repeat;
-	padding: 10% 0px;
+	padding: 5% 0px 5% 0px;
 }
 
 .sixth-section input {
@@ -379,7 +379,7 @@ footer {
 	background-size: cover;
 	width: 100%;
 	background-repeat: no-repeat;
-	padding: 11% 0px 4% 0px;
+	padding: 5% 0px 5% 0px;
 }
 
 footer ul {
@@ -442,7 +442,7 @@ footer a:hover {
 	background-size: cover;
 	width: 100%;
 	background-repeat: no-repeat;
-	padding: 10% 0px 15% 0px;
+	padding: 5% 0px 5% 0px;
 }
 
 .first-gallery-section .text-content {
